@@ -1,0 +1,83 @@
+/* * {
+  border: dashed white;
+} */
+
+body {
+  background-image: url(../images/download.gif);
+}
+
+.imageholder {
+  /* display: block; */
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-left: 15%;
+}
+
+img {
+  margin: 1px;
+  /* border: dashed green; */
+}
+
+/* #logo {
+  margin: 10px;
+  align-self: center;
+} */
+
+.row {
+  height: 100px;
+}
+
+#jump, #behind {
+  float:right;
+  margin-right: 50px;
+}
+#studiostore {
+  float: right;
+  margin: 0 auto;
+  padding-right: 40px;
+  padding-top: 50px;
+
+}
+
+#lunartunes {
+  margin-top: 20px;
+}
+
+#jamcentral {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#pressbox {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#jump {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+#behind {
+  float: left;
+  margin-left: -70px;
+  margin-top: 20px;
+}
+
+#lineup, #junior {
+
+}
+
+#logo{
+margin-left: -80px;
+}
+
+#souvenirs {
+  padding-left: 80px;
+  margin-top: -20px;
+}
+
+#sitemap {
+  padding-top: 50px;
+}
