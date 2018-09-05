@@ -1,0 +1,95 @@
+$red-color: red;
+$space-jam-image: url("../images/download.gif");
+$float-right: right;
+$medium-gap: 50px;
+
+body {
+  background-image: $space-jam-image;
+}
+
+.imageholder {
+  width: 600px;
+  margin: 0 auto {
+    top: 130px;
+    left: auto;
+    right: auto;
+  }
+}
+
+img {
+  margin: 1px;
+}
+
+.container {
+  .row {
+    height: 100px;
+  }
+}
+
+#behind,
+#jump {
+  float: $float-right;
+  margin-right: $medium-gap;
+}
+
+#studiostore {
+  float: $float-right;
+  margin: 0 auto;
+  padding: {
+    right: 40px;
+    top: $medium-gap;
+  }
+}
+
+#lunartunes {
+  margin-top: 20px;
+}
+
+#jamcentral {
+  margin: {
+    left: $medium-gap;
+    top: 20px;
+  }
+}
+
+#pressbox {
+  margin: {
+    top: $medium-gap;
+    left: $medium-gap;
+  }
+}
+
+#jump {
+  margin: {
+    top: $medium-gap;
+    left: 40px;
+  }
+}
+
+#behind {
+  float: left;
+  margin: {
+    left: -70px;
+    top: 20px;
+  }
+}
+
+#logo {
+  margin-left: -80px;
+}
+
+#souvenirs {
+  padding-left: 80px;
+  margin-top: -20px;
+}
+
+#sitemap {
+  padding-top: $medium-gap;
+}
+
+p {
+  margin-top: 10%;
+  color: $red-color;
+  text-align: center;
+  width: auto;
+}

@@ -1,15 +1,8 @@
-/* * {
-  border: dashed white;
-} */
-
-
-
 body {
-  background-image: url(../images/download.gif);
+  background-image: url("../images/download.gif");
 }
 
 .imageholder {
-  /* display: block; */
   width: 600px;
   margin: 0 auto;
   margin-top: 130px;
@@ -19,28 +12,23 @@ body {
 
 img {
   margin: 1px;
-  /* border: dashed green; */
 }
 
-/* #logo {
-  margin: 10px;
-  align-self: center;
-} */
-
-.row {
+.container .row {
   height: 100px;
 }
 
-#jump, #behind {
-  float:right;
+#behind,
+#jump {
+  float: right;
   margin-right: 50px;
 }
+
 #studiostore {
   float: right;
   margin: 0 auto;
   padding-right: 40px;
   padding-top: 50px;
-
 }
 
 #lunartunes {
@@ -68,12 +56,8 @@ img {
   margin-top: 20px;
 }
 
-#lineup, #junior {
-
-}
-
-#logo{
-margin-left: -80px;
+#logo {
+  margin-left: -80px;
 }
 
 #souvenirs {
@@ -84,9 +68,12 @@ margin-left: -80px;
 #sitemap {
   padding-top: 50px;
 }
+
 p {
   margin-top: 10%;
-  color: $red-color;
+  color: red;
   text-align: center;
   width: auto;
 }
+
+/*# sourceMappingURL=output.css.map */
